@@ -1,14 +1,21 @@
-.App {
-  text-align: center;
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: 50px;
-  color: white;
-}
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+    body {
+      font-family: 'Lato', sans-serif;
+      transition: background 0.3s;
+      background: ${({ theme }) => theme.colors.site.background};
+      color: ${({ theme }) => theme.colors.site.text};
+      font-size: 18px;
+      letter-spacing: 0.05em;
+      word-break: break-all;
+      overflow-y: scroll;
+      padding-bottom: 108px;
+      
+      @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+        padding-bottom: 32px; 
+      }
+    }
 
 .lato-thin {
   font-family: "Lato", serif;
@@ -69,3 +76,4 @@
   font-weight: 900;
   font-style: italic;
 }
+`;
