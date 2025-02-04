@@ -1,0 +1,1 @@
+export const introduction = "W latach 80tych i 90tych byłem zawodowym programistą. Ostatnio postanowiłem przypomnieć sobie programowanie, głównie dlatego że bardzo to lubilem, i zapisałem się na kurs Frontend dla poczatkujących firmy Youcode. Tak wygląda moja praca na zakończenie kursu.";

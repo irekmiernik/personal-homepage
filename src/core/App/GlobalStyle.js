@@ -11,7 +11,7 @@ export const GlobalStyle = createGlobalStyle`
       word-break: break-all;
       overflow-y: scroll;
       padding-bottom: 108px;
-      
+      word-break: normal;
       @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
         padding-bottom: 32px; 
       }

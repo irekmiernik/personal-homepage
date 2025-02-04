@@ -9,3 +9,12 @@ export const Container = styled.div`
   padding: 10px;
 }
 `;
+
+export const Icon = styled.img`
+  vertical-align: middle;
+  margin-left: 5px;
+
+  @media(max-width: ${({ theme }) => theme.breakpoints.mobileMax}px) {
+    height: 16px;
+} 
+`;

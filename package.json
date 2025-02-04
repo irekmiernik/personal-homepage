@@ -5,6 +5,8 @@
   "homepage": "https://irekmiernik.github.io/personal-homepage",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
+    "axios": "^1.7.9",
+    "color-alpha": "^2.0.0",
     "cra-template": "1.2.0",
     "gh-pages": "^6.3.0",
     "react": "^19.0.0",
