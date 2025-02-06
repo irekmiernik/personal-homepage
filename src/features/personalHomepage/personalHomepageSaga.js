@@ -6,7 +6,7 @@ import {
   fetchRepositoriesError
 } from "./personalHomepageSlice";
 
-const loadingDelay = 2_000;
+const loadingDelay = 10_000;
 
 function* fetchRepositoriesHandler({ payload: username }) {
   try {
