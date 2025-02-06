@@ -2,7 +2,7 @@ import { useSelector } from "react-redux";
 import { selectIsDarkTheme } from "../../common/themeSlice";
 import { ThemeProvider } from "styled-components";
 import { themeDark, themeLight } from "./theme";
-import { Normalize } from "styled-normalize";
+// import { Normalize } from "styled-normalize";
 import { GlobalStyle } from "./GlobalStyle";
 import { PersonalHomepage } from "../../features/personalHomepage/PersonalHomepage";
 
@@ -12,7 +12,7 @@ function App() {
 
   return (
     <ThemeProvider theme={isDarkTheme ? themeDark : themeLight}>
-      <Normalize />
+      {/* <Normalize /> */}
       <GlobalStyle />
       <PersonalHomepage />
     </ThemeProvider>

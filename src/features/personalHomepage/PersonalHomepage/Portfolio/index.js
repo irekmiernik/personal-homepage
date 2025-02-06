@@ -25,7 +25,7 @@ export const Portfolio = () => {
         <StyledGitHubIcon />
         <SubHeader>Portfolio</SubHeader>
         <MyRecentProjects>
-          Zaprojektowane przez mnie strony internetowe
+          Poniżej możesz zobaczyć stworzone przeze mnie w ramach prac domowych kursu strony internetowe
         </MyRecentProjects>
       </Header>
       <Content

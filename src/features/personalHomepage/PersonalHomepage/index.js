@@ -17,7 +17,7 @@ export const PersonalHomepage = () => (
       <Skills
         title={(
           <>
-            Podczas kursu poznamlem <Icon src={ToolsIcon} alt="" />
+            Podczas kursu poznałem <Icon src={ToolsIcon} alt="" />
           </>
         )}
         skills={skills}
@@ -25,7 +25,7 @@ export const PersonalHomepage = () => (
       <Skills
         title={(
           <>
-            Chciaym jeszcze poznac <Icon src={RocketIcon} alt="" />
+            Chciałbym jeszcze poznać <Icon src={RocketIcon} alt="" />
           </>
         )}
         skills={nextSkills}
